@@ -1,0 +1,30 @@
+{
+	"name": "HTML-Theme",
+	"version": "1.0.0",
+	"description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+	"main": "index.js",
+	"scripts": {
+		"dev": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"hot": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"production": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"glob": "^8.1.0",
+		"laravel-mix": "^6.0.8",
+		"node-sass": "^8.0.0",
+		"postcss": "^8.1.14",
+		"resolve-url-loader": "^5.0.0",
+		"sass": "^1.32.2",
+		"sass-loader": "^13.2.0"
+	},
+	"dependencies": {
+		"@theatre/core": "^0.6.1",
+		"@theatre/studio": "^0.6.1",
+		"gsap": "file:gsap-bonus.tgz",
+		"jquery": "^3.7.0"
+	}
+}

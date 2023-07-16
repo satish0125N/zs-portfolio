@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Andika';
+    src: local('Andika Bold'), local('Andika-Bold'),
+        url('Andika-Bold.woff2') format('woff2'),
+        url('Andika-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Andika';
+    src: local('Andika'),
+        url('Andika.woff2') format('woff2'),
+        url('Andika.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
